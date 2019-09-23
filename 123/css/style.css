@@ -1,0 +1,60 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;}
+
+#header{
+    background: black;
+    color: white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-log{
+    display:flex;
+}
+
+.logo{
+    width: 16%;
+    margin-right: 20px;
+}
+
+.img{
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    padding:15px;
+}
+
+.menu ul li{
+    padding:15px;
+    list-style: none;
+}
+.menu-log{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.Videosubmit button{
+    padding: 15px;
+    border:2px solid crimson;
+    background: transparent;
+    color: crimson;
+    margin:10px;
+}
+
+/* Action start */
+#Action{
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    color: white;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-image: url(https://wallup.net/wp-content/uploads/2018/10/05/799164-war-helicopter-soldier-world-war-fantasy-cities-army-sci-fi-warrior-battle-apocalyptic-art-artwork-city-748x421.jpg);
+}
+
+
