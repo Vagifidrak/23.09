@@ -45,16 +45,70 @@ box-sizing: border-box;}
 }
 
 /* Action start */
+
 #Action{
-    font-size: 24px;
-    font-weight: 700;
-    display: flex;
-    color: white;
-    height: 500px;
-    text-align: center;
-    justify-content: center;
-    margin: auto;
-    background-image: url(https://wallup.net/wp-content/uploads/2018/10/05/799164-war-helicopter-soldier-world-war-fantasy-cities-army-sci-fi-warrior-battle-apocalyptic-art-artwork-city-748x421.jpg);
+    position: relative;
 }
 
+.AllAction{
+    position: absolute;
+    top: 50%;
+    left:65px;
+    transform: translateY(-50%);
+}
+.infoAction span{
+    color: #ffffff;
+    font-size:20px;
+    font-weight: 700; 
+}
+
+.infoAction h1{
+    color: #ffffff;
+    font-size: 100px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.infoAction h4{
+    margin-bottom: 20px;
+    font-size:55px;
+    line-height:1.2rem;
+    color:rgba(255,255,255, 0.56);
+}
+
+.infoAction h6{
+    font-size: 26px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+    color: #ffffff;
+}
+.play-ico{
+    opacity: .9;
+    color: #ffffff;
+    position: absolute;
+    font-size: 5em;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-arrow, .right-arrow{
+    position: absolute;
+    top:50%;
+    transform: translateX(-50%);
+    left:20px;
+    z-index: 15;
+    font-size: 2rem;
+    color: white;
+}
+.left-arrow{
+    left: 25px;
+}
+.right-arrow{
+    right: 25px;
+}
 
